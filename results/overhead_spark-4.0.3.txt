@@ -1,0 +1,6 @@
+==== OVERHEAD (Spark 4.0.3; 100000 customers, 1000000 orders, split_degree 6) ====
+                           variant  median_ms    min    max     rows
+   shuffle-join baseline (SPJ off)        224    203    262   100000
+    SPJ + SPARK-55848 fix (SPJ on)        155    136    185   100000
+
+Both return 100000 rows (correct). Corrected-SPJ vs shuffle-join baseline: -70 ms median (-31%).

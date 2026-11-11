@@ -98,7 +98,7 @@ SPJ's benefit. (Absolute numbers vary by machine; the relative result holds.)
 - **Affected (pre-fix):** 3.4.x, 3.5.0–3.5.8, 4.0.0–4.0.2, 4.1.x
 - **Fixed by the `isPartiallyClustered` flag (this work):** 3.5.9, 4.0.3, 4.1.2
 - **master / 4.2.0:** the same defect is closed by an independent structural
-  refactor, SPARK-54330 (Peter Toth's `KeyedPartitioning` refactor), **not** by
+  refactor, PR #54330 (SPARK-55535) (Peter Toth's `KeyedPartitioning` refactor), **not** by
   this flag; the author's regression tests for SPARK-55848 (#54714) are included
   in 4.2.0.
 
@@ -106,4 +106,4 @@ SPJ's benefit. (Absolute numbers vary by machine; the relative result holds.)
 
 - JIRA (fix): https://issues.apache.org/jira/browse/SPARK-55848
 - Original report: paryoja, apache/spark issue #54378 — https://github.com/apache/spark/issues/54378
-- Master/4.2.0 refactor: SPARK-54330 — https://issues.apache.org/jira/browse/SPARK-54330
+- Master/4.2.0 refactor: PR #54330 (SPARK-55535/SPARK-55092) — https://github.com/apache/spark/pull/54330

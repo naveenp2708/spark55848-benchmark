@@ -1,0 +1,18 @@
+# Generated Spark/Iceberg test data + dependency caches — do NOT commit
+_spj_warehouse/
+_spj_ivy/
+artifacts/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python virtualenvs (README tells users to create these locally)
+venv/
+venv-prefix/
+venv-postfix/
+__pycache__/
+*.pyc
+
+# OS / misc
+.DS_Store
+*.crc
